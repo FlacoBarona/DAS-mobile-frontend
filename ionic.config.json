@@ -1,0 +1,7 @@
+{
+  "name": "DAS-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
