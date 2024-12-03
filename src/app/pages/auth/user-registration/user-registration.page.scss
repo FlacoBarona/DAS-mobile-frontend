@@ -1,0 +1,72 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; // Asegura que el contenedor ocupe toda la pantalla
+    padding: 20px;
+    text-align: center;
+    background: url('/src/assets/images/bus.png') no-repeat center center/cover; // Asegura que la imagen de fondo cubra todo
+    color: #ffffff; // Texto blanco para resaltar sobre el fondo
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto; // Ajusta proporcionalmente la altura
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem; // Tamaño de texto más grande para el título
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f0f0f0; // Un blanco suave para diferenciar del fondo
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); // Añade un poco de profundidad al texto
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.9); // Fondo blanco semitransparente
+    padding: 20px;
+    border-radius: 10px; // Bordes redondeados
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); // Sombra para dar profundidad
+  }
+  
+  ion-item {
+    --background: transparent; // Fondo transparente para integrarse con el diseño
+    --border-color: #000000; // Color de los bordes
+    margin-bottom: 15px; // Separación entre elementos
+  }
+  
+  ion-label {
+    font-size: 0.9rem;
+    color: #333; // Texto oscuro para buena legibilidad
+  }
+  
+  ion-input {
+    font-size: 1rem;
+  }
+  
+  .register-button {
+    margin-top: 20px;
+    --background: #3880ff; // Azul predeterminado de Ionic
+    --background-hover: #3171e0; // Azul más oscuro al pasar el cursor
+    --border-radius: 20px; // Bordes redondeados para un estilo más moderno
+  }
+  
+  .extra-links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  
+    a {
+      color: #3880ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #1e60c0; // Color más oscuro al pasar el cursor
+      }
+    }
+  }
+  

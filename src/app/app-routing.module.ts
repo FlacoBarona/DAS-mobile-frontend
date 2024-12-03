@@ -19,6 +19,11 @@ const routes: Routes = [
     path: '**',
     redirectTo: 'auth/login',    
   },
+  {
+    path: 'user-registration',
+    loadChildren: () => import('./pages/auth/user-registration/user-registration.module').then( m => m.UserRegistrationPageModule)
+  },
+
 ];
 
 @NgModule({
